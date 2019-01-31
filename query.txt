@@ -1,0 +1,11 @@
+Select * from Pelanggan where namaPelanggan LIKE '%ud%'
+
+Select * from barang order by jmlStok
+
+Select Pelanggan.IdPelanggan, Pelanggan.namaPelanggan, pembayaran.idPembayaran, pembayaran.totalBayar from pelanggan join pembayaran ON pelanggan.IdPelanggan = pembayaran.IdPelanggan
+
+SELECT * FROM pelanggan WHERE idPelanggan=0001
+
+SELECT * FROM pemesanan WHERE tglBeli='2019-01-20'
+
+Select login.username, karyawan.idKaryawan, karyawan.namaKaryawan from login join karyawan WHERE login.username = karyawan.username
