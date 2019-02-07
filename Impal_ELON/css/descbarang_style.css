@@ -1,0 +1,58 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+nav{
+	width: 100%;
+	background: skyblue;
+	text-align: center;
+	font-size: 24px;
+}
+
+ul{
+	margin: 80%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+}
+
+ul li:hover{
+	background: red;
+}
+
+ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+p{
+	margin: 5%;
+	padding: 10px;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: black;
+}
+
+img{
+	margin: 5%;
+}
+
+table{
+	font-size: 24px;
+}
+
+button{
+	cursor: pointer;
+	border-radius: 3px;
+	padding: 5px 10px;
+	background-color: #BABBBD;
+	color: white;
+	
+}
