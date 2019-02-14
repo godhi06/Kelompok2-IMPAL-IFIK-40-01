@@ -1,0 +1,18 @@
+Nama Proses:Login
+Deskripsi: Proses ini digunakan untuk login agar bisa mengakses pembelian barang elektronik online sampai ke pembayaran
+Data Input: Usernam dan password
+Dataoutput : berhasil masuk setelah akun valid
+Algoritma Proses:-Masukkan Username
+				 -Masukkan Password
+				 -Sistem mengecek validasi apakah yang dimasukkan ada di database 
+				 -kalau ada berhasil masuk, jika tidak kembali lago
+
+
+
+Nama Proses:Pembelian
+Deskripsi: Proses ini untuk memilih barang yang akan dibeli
+Data Input : Input barang ke list beli atau barang yg ingin dibeli
+Data output : keluar Info mengenai harga
+Algoritma Proses : -pilih barang
+				   -sistem akan langsung melayani dengan mengeluarkan informasi harga yang harus dibayar
+
